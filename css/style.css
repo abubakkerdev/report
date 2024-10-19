@@ -1,0 +1,100 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #ecf0f1cf;
+}
+.main {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.assistClass {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.table-custom {
+  width: 80%;
+  margin: auto;
+}
+
+.supportInfo {
+  margin-top: 65px;
+}
+span {
+  font-weight: 700;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.table-bordered {
+  border-color: #0000004a !important;
+}
+.batchInfo {
+  width: 50%;
+  margin: auto;
+}
+.input-width {
+  width: 45%;
+  margin: auto;
+}
+.randomTime {
+  margin-left: 20px;
+}
+
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+.form-control {
+  padding: 10px !important;
+}
+
+.up {
+  display: block;
+  background: #212529;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.down {
+  display: block;
+  background: #ff0000e3;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.winOrLoss,
+.editWinOrLoss {
+  width: 30px !important;
+  height: 20px !important;
+}
+.switchCheck {
+  width: 35px !important;
+}
+.show {
+  width: 380px !important;
+}
+.addTableList td {
+  font-weight: 700;
+}
+.uniqueID {
+  display: flex;
+  justify-content: center;
+}
+.editListData {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+}
+.semiboldText {
+  font-weight: 600 !important;
+}
+.visitStock {
+  color: black;
+}
+.timeIdSize {
+  font-size: 19px;
+  font-weight: 600;
+}

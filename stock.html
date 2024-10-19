@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stock Report</title>
+    <link rel="icon" href="./images/icon.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="batchInfo">
+        <div class="card text-center">
+          <div class="card-header">
+            <h4>Your Stock Currency Name & Time</h4>
+          </div>
+          <div class="card-body">
+            <div class="input-group mb-3 mt-2 input-width">
+              <button class="input-group-text" id="reset">reset</button>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Stock Information"
+                id="stockInfo"
+              />
+            </div>
+            <button id="currencyReportBtn" class="btn mb-2 btn-primary">
+              Report Create
+            </button>
+          </div>
+          <div class="card-footer">
+            <h4>
+              Present Day Time:-
+              <span class="randomTime" id="clock">22:28:31</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="supportInfo">
+        <h2 class="assistClass">All Currency Report List</h2>
+
+        <div class="list-group editListData" id="currencyReportList">
+          <span
+            class="list-group-item semiboldText list-group-item-action pt-3 pb-3"
+            >Demo Content</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/stock.js"></script>
+  </body>
+</html>
